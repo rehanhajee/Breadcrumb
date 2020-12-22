@@ -1,0 +1,52 @@
+.breadcrumb {
+    box-shadow: 0 1px 0 0 #eaeaea;
+    color: #3c3c3c;
+    background-color: white;
+    padding-bottom: 1px;
+}
+
+
+.breadcrumb-container {    
+    height: 30px;
+    width: 100%;
+    display: flex;
+    padding: 5px 5px 0px 5px;
+
+    line-height: 28px;
+    font-size: larger;
+}
+
+.breadcrumb-item {
+    color:#005377;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.breadcrumb-item:hover {
+    color: #161616;
+    text-decoration: underline;
+}
+
+.breadcrumb-item-separator {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.body {
+    padding: 0% 2% 2% 2%;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.files {
+    color: -webkit-link;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.files:hover {
+    color: #0707ff;
+    text-decoration: underline;
+}
